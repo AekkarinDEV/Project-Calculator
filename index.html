@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
 </head>
 <body>
     <div id="calculator">
@@ -15,13 +18,13 @@
        <div id="panel">
         <div id="buttons">
             <button id="ac" value="ac" onclick="allClear()">AC</button>
-            <button id="del" value="del" onclick="deleteButton()">delete</button>
+            <button id="del" value="del" onclick="deleteButton()">del</button>
             <button id="percent" value="%" onclick="opertionInput('%')">%</button>
             <button id="divide" value="/" onclick="opertionInput('/')">÷</button>
             <button id="seven" value="7" onclick="inputListener(7)">7</button>
             <button id="eight" value="8" onclick="inputListener(8)">8</button>
             <button id="nine" value="9" onclick="inputListener(9)">9</button>
-            <button id="multiply" value="*" onclick="opertionInput('*')">X</button>
+            <button id="multiply" value="*" onclick="opertionInput('*')">x</button>
             <button id="four" value="4" onclick="inputListener(4)">4</button>
             <button id="five" value="5" onclick="inputListener(5)">5</button>
             <button id="six" value="6" onclick="inputListener(6)">6</button>
@@ -30,11 +33,9 @@
             <button id="two" value="2" onclick="inputListener(2)">2</button>
             <button id="three" value="3" onclick="inputListener(3)">3</button>
             <button id="plus" value="+" onclick="opertionInput('+')">+</button>
-        </div>
-        <div id="zeroandequal"> 
+            <div></div>
             <button id="zero" value="0" onclick="inputListener(0)">0</button>
             <button id="dot" value="." onclick="inputListener('.')">.</button>
-
             <button id="equal" value="=" onclick="equalButton()">=</button>
         </div>
     </div>
