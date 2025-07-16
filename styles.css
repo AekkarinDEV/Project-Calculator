@@ -1,70 +1,71 @@
 * {
-    font-family: "Orbitron", serif;
-    font-weight: 500;
+  font-family: "Orbitron", serif;
+  font-weight: 500;
 }
 html {
-    background-color: #9CAFAA;
-    min-width: 600px;
+  background-color: #9cafaa;
+  min-width: 600px;
 }
 
 body {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  height: 100dvh;
+  justify-content: center;
+  align-items: center;
 }
 
 #calculator {
-    background-color: #EEEEEE;
-    width: 400px;
-    margin-top: 45px;
-    border-radius: 10px;
-    box-shadow: 5px 5px #DDDDDD;
+  background-color: #eeeeee;
+  width: 400px;
+  border-radius: 10px;
+  box-shadow: 5px 5px #dddddd;
 }
 
 #screen {
-    background-color: aliceblue;
-    padding: 10px 10px 10px 10px;
-    margin: 10px 15px 10px 15px;
-    border-radius: 10px;
-    text-align: end;
-    border: solid 4px #76885B;
+  background-color: aliceblue;
+  padding: 10px 10px 10px 10px;
+  margin: 10px 15px 10px 15px;
+  border-radius: 10px;
+  text-align: end;
+  border: solid 4px #76885b;
 }
 
 #buttons {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    height: 85%;
-    justify-content: center;
-    width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  height: 85%;
+  justify-content: center;
+  width: 100%;
 }
 button {
-    height: 78px;
-    width: 78px;
-    border-radius: 30%;
-    font-size: 130%;
-    justify-self: center;
-    align-self: center;
-    border: none;
-    background-color: #ADBC9F;
-    margin-bottom: 10px;
-    color: #222831;
+  height: 78px;
+  width: 78px;
+  border-radius: 30%;
+  font-size: 130%;
+  justify-self: center;
+  align-self: center;
+  border: none;
+  background-color: #adbc9f;
+  margin-bottom: 10px;
+  color: #222831;
 }
 
 button:hover {
-    background-color: #9CAFAA;
+  background-color: #9cafaa;
 }
 
 button:active {
-    border-color: #222831;
+  border-color: #222831;
 }
 
 #row1 {
-    font-size: 25px;
-    margin: 0 4px;
-    color: #627254;
+  font-size: 25px;
+  margin: 0 4px;
+  color: #627254;
 }
 
 #row2 {
-    font-size: 40px;
-    margin: 0 2px;
-    color: #114232;
+  font-size: 40px;
+  margin: 0 2px;
+  color: #114232;
 }
